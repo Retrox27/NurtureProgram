@@ -1,0 +1,100 @@
+/*.custom-button.button--primary {
+    background: #4fd6c5;
+    color: #ffffff;
+}
+
+.custom-button.button--primary::after {
+    display: none;
+}
+
+.custom-button.button--primary::before {
+    background: #2dcab7;
+}
+
+.custom-button.button--primary:hover {
+    background: #2dcab7;
+}
+*/
+
+.no-javascript-4-real {
+    justify-content: right;
+}
+
+.two-announcement {
+    display: flex;
+    flex-direction: row;
+}
+
+.announcement-bar__announcement {
+    text-wrap: nowrap;
+}
+
+.two-announcement .grid__item {
+    width: 20vw;
+}
+
+.announcement-bar__message span {
+    display: flex;
+    gap: 10px;
+}
+
+.card__content{
+    justify-content: center;
+    color: #552473;
+    text-align: center;
+}
+
+.price__container {
+    width: 100%;
+    text-align: center;
+}
+
+.multicolumn-card__info .rte { /* color for price in program list */
+    color: #edc0bd;
+}
+
+span.custom-button-hover {
+    displaY: flex;
+    z-index: 10;
+    width: 50%;
+} /*experimental, mostrar a R2D2 */
+
+.multicolumn-card.content-container {
+    height: auto;
+}
+
+img.multicolumn-card__image {
+    object-fit: contain;
+}
+
+.media.media--transparent.media--adapt {
+    height: 57px;
+    width: auto !important;
+}
+
+p.login-text {
+    font-weight: 800;
+}
+
+a.header__icon.header__icon--account.link.focus-inset.small-hide {
+    width: 100%;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.header__icon.header__icon--cart.link.focus-inset {
+    padding-right: 20px;
+}
+
+.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin {
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+.collection__title.title-wrapper.title-wrapper--no-top-margin.page-width.title-wrapper--self-padded-tablet-down.collection__title--desktop-slider {
+    display: flex;
+    justify-content: center;
+}
+
