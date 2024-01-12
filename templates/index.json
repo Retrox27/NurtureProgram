@@ -303,15 +303,24 @@
           "type": "button",
           "settings": {
             "button_label": "View Program",
-            "button_link": "",
+            "button_link": "#",
             "button_style_secondary": false
+          }
+        },
+        "button_MYEbrQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "More About Me",
+            "button_link": "#",
+            "button_style_secondary": true
           }
         }
       },
       "block_order": [
         "heading_g7NE3j",
         "text_jUMCft",
-        "button_KEAPXy"
+        "button_KEAPXy",
+        "button_MYEbrQ"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_9841_2.png",
@@ -327,6 +336,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "featured_blog_YMiQFr": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog",
+        "heading_size": "h1",
+        "blog": "blog-nurture",
+        "post_limit": 3,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-a9122f85-b6fd-4db3-ab16-ecdb5067b71a",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -335,6 +361,7 @@
     "3a9f21ec-8103-4287-8037-8067b70cf7e8",
     "24bd4cfd-2424-4511-9b96-da96d9bd2629",
     "4025d7d1-9f45-4cd4-a3f4-3bc6eb60f9e6",
-    "image_with_text_cM9N7p"
+    "image_with_text_cM9N7p",
+    "featured_blog_YMiQFr"
   ]
 }
