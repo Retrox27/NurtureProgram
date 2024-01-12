@@ -303,16 +303,16 @@
           "type": "button",
           "settings": {
             "button_label": "View Program",
-            "button_link": "",
+            "button_link": "#",
             "button_style_secondary": false
           }
         },
         "button_MYEbrQ": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "button_label": "More About Me",
+            "button_link": "#",
+            "button_style_secondary": true
           }
         }
       },
