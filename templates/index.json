@@ -281,6 +281,51 @@
         "padding_top": 68,
         "padding_bottom": 68
       }
+    },
+    "image_with_text_cM9N7p": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_g7NE3j": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet karen Faulkner",
+            "heading_size": "h1"
+          }
+        },
+        "text_jUMCft": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_KEAPXy": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Program",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_g7NE3j",
+        "text_jUMCft",
+        "button_KEAPXy"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -288,6 +333,7 @@
     "45378c04-1f5c-4b83-a1a8-8c057a461319",
     "3a9f21ec-8103-4287-8037-8067b70cf7e8",
     "24bd4cfd-2424-4511-9b96-da96d9bd2629",
-    "4025d7d1-9f45-4cd4-a3f4-3bc6eb60f9e6"
+    "4025d7d1-9f45-4cd4-a3f4-3bc6eb60f9e6",
+    "image_with_text_cM9N7p"
   ]
 }
