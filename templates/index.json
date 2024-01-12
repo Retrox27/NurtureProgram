@@ -306,12 +306,21 @@
             "button_link": "",
             "button_style_secondary": false
           }
+        },
+        "button_MYEbrQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "heading_g7NE3j",
         "text_jUMCft",
-        "button_KEAPXy"
+        "button_KEAPXy",
+        "button_MYEbrQ"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_9841_2.png",
