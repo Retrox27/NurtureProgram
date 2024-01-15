@@ -1,1 +1,61 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","settings":{"color_scheme":"background-1","newsletter_enable":true,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":true,"show_social":true,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":true,"show_policy":false,"margin_top":0,"padding_top":36,"padding_bottom":36}}},"order":["footer"]}
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "newsletter_tAFrff": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_JC6YVP": {
+          "type": "heading",
+          "settings": {
+            "heading": "LET´S KEEP IN TOUCH",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph_UW6nJq": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<h2>Sign Up For Our Newsletter & Get 10% Off Your First Order<\/h2>"
+          }
+        },
+        "email_form_Raxxm4": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_JC6YVP",
+        "paragraph_UW6nJq",
+        "email_form_Raxxm4"
+      ],
+      "settings": {
+        "color_scheme": "scheme-86e6c13a-2dc1-4c27-b3cc-fbb6d191b611",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 80
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "newsletter_tAFrff",
+    "footer"
+  ]
+}
