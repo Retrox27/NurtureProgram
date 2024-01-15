@@ -30,7 +30,7 @@
         "email_form_Raxxm4"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-d0bcbd83-e7dd-4553-a751-881781c35b08",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -40,7 +40,7 @@
       "type": "footer",
       "settings": {
         "color_scheme": "background-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
