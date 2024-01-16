@@ -101,3 +101,9 @@ a.header__icon.header__icon--account.link.focus-inset.small-hide {
 .custom-email-heading-size {
     font-size: 16px;
 }
+
+.social-links-custom {
+	display: inline-block;
+	width: 80% !important;
+	padding-top: 25px;
+}
