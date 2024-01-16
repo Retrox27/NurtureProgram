@@ -2,6 +2,15 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_yyLPHQ": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "newsletter_tAFrff": {
       "type": "newsletter",
       "blocks": {
@@ -85,6 +94,7 @@
     }
   },
   "order": [
+    "custom_liquid_yyLPHQ",
     "newsletter_tAFrff",
     "footer"
   ]
