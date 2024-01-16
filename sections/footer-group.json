@@ -53,25 +53,25 @@
             "subtext": "<p>0413 054 578<br\/>erin@nurtureparenting.com.au<\/p>"
           }
         },
+        "brand_information_6fUPnU": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
         "link_list_cLyhPh": {
           "type": "link_list",
           "settings": {
             "heading": "<strong>Shop<\/strong>",
             "menu": "shop"
           }
-        },
-        "brand_information_6fUPnU": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
-          }
         }
       },
       "block_order": [
         "text_dFpN84",
         "text_FCA3DW",
-        "link_list_cLyhPh",
-        "brand_information_6fUPnU"
+        "brand_information_6fUPnU",
+        "link_list_cLyhPh"
       ],
       "settings": {
         "color_scheme": "scheme-19905aad-58fc-4ce0-ad22-18379fd04286",
