@@ -97,7 +97,7 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "brand_headline": "",
+    "brand_headline": "<strong>Follow Us<\/strong>",
     "brand_description": "<p><\/p>",
     "brand_image_width": 100,
     "social_facebook_link": "#",
