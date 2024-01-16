@@ -139,7 +139,9 @@
                     {%- endif -%}
                     {%- when 'brand_information' -%}
                       <div class="social-links-custom footer-block__brand-info">
+                        a
                         {%- if settings.brand_image != blank -%}
+                          b
                           {%- assign brand_image_height = settings.brand_image_width
                             | divided_by: settings.brand_image.aspect_ratio
                           -%}
