@@ -56,7 +56,7 @@
         "link_list_cLyhPh": {
           "type": "link_list",
           "settings": {
-            "heading": "",
+            "heading": "<strong>Shop<\/strong>",
             "menu": "footer"
           }
         },
@@ -75,9 +75,9 @@
         "text_FCA3DW"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-19905aad-58fc-4ce0-ad22-18379fd04286",
         "newsletter_enable": false,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
