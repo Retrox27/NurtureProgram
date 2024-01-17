@@ -42,8 +42,9 @@
         "column_b694WN": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/baby1_425bad2c-a762-471f-8ef6-5161e0cfce0b.png",
+            "title": "<strong>Elsa M. <\/strong>Verified Buyer",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and.<\/p>",
             "link_label": "",
             "link": ""
           }
