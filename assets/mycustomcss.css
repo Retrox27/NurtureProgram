@@ -111,3 +111,7 @@ a.header__icon.header__icon--account.link.focus-inset.small-hide {
 .button--margin__left {
     margin-left: 15px;
 }
+
+.custom-display-section {
+    display: inline-block;
+}
