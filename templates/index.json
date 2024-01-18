@@ -329,7 +329,7 @@
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "overlap",
+        "content_layout": "no-overlap",
         "color_scheme": "scheme-a9122f85-b6fd-4db3-ab16-ecdb5067b71a",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
