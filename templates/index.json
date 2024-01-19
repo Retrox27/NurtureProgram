@@ -163,6 +163,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Our Programs",
+        "show_program": true,
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -191,6 +192,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "E-Books",
+        "show_program": false,
         "heading_size": "h2",
         "description": "",
         "show_description": false,
