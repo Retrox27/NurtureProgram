@@ -115,3 +115,7 @@ a.header__icon.header__icon--account.link.focus-inset.small-hide {
 .custom-display-section {
     display: inline-block !important;
 }
+
+.price-recolor {
+    color: #EDC0BD;
+}
