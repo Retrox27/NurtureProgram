@@ -15,6 +15,7 @@
   - horizontal_class: {Boolean} Add a card--horizontal class if set to true. Default: false (optional)
   - horizontal_quick_add: {Boolean} Changes the quick add button styles when set to true. Default: false (optional)
   - placeholder_image: {String} The placeholder image to use when no product exists. Default: 'product-apparel-2' (optional)
+  - show_view_program: {String} Shows a button that appears when hover inside the product image. Default: false
 
   Usage:
   {% render 'card-product', show_vendor: section.settings.show_vendor %}
@@ -102,6 +103,11 @@
           </div>
         {%- endif -%}
         <div class="card__content">
+          {% if card-product.show_view_program %}
+            <div class="card__button--hoverable">
+              <a class="button button--primary">View Programs</a>
+            </div>
+          {% endif %}
           <div class="card__information">
             <h3
               class="card__heading"

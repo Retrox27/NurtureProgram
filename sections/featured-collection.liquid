@@ -94,7 +94,8 @@
               show_vendor: section.settings.show_vendor,
               show_rating: section.settings.show_rating,
               show_quick_add: section.settings.enable_quick_add,
-              section_id: section.id
+              section_id: section.id,
+              show_view_program: section.settings.show_program
             %}
           </li>
         {%- else -%}
@@ -177,6 +178,12 @@
       "id": "title",
       "default": "Featured collection",
       "label": "t:sections.featured-collection.settings.title.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_program",
+      "default": false,
+      "label": "Show View Programs button"
     },
     {
       "type": "select",
