@@ -186,3 +186,7 @@ a.button.button--margin__left.button--secondary {
 .footer__blocks-wrapper {
     gap: 13%;
 }
+
+.custom-heading-size {
+    font-size: 16px;
+}
