@@ -149,8 +149,9 @@ a.header__icon.header__icon--account.link.focus-inset.small-hide {
   height: 110%;
 }
 
-.custom-spacing {
-    
+.image-with-text__text-item.grid__item.custom-spacing {
+    margin-left: 70px;
+    margin-top: 50px;
 }
 
 a.button.button--margin__left.button--secondary {
