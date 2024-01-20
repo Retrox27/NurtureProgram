@@ -159,9 +159,20 @@ a.button.button--margin__left.button--secondary {
 }
 
 .multicolumn-card__stars{
-    position:relative;
+    position: absolute;
+    margin-left: 75%;
 }
 
 .media.media--transparent.media--square {
     width: 150px;
+}
+
+.multicolumn-card-spacing {
+    padding-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.multicolumn-card.content-container {
+    display: flex;
 }
