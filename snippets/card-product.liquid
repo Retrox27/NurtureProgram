@@ -103,10 +103,8 @@
           </div>
         {%- endif -%}
         <div class="card__content">
-          {{ card-product.show_view_program }}
-          {% if card-product.show_view_program != false %}
+          {% if card-product.show_view_program == true %}
             <div class="card__button--hoverable">
-              {{ card-product.show_view_program }}
               <a class="button button--primary">View Programs</a>
             </div>
           {% endif %}
