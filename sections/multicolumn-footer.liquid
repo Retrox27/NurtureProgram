@@ -81,7 +81,7 @@
                   {% assign spaced_image = true %}
                 {% endif %}
                 <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing-footer{% endif %}">
-                  {% if section.settings.testimonial != false %}
+                  {% if section.settings.stars != false %}
                     <img class="multicolumn-card__stars" src="{{ 'stars.png' | asset_url }}">
                   {% endif %}
                   <div
@@ -206,9 +206,9 @@
     },
     {
       "type": "checkbox",
-      "id": "testimonial",
+      "id": "stars",
       "default": false,
-      "label": "Converts this section into a testimonial section"
+      "label": "Stars"
     },
 
     {
