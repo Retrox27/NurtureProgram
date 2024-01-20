@@ -119,3 +119,17 @@ a.header__icon.header__icon--account.link.focus-inset.small-hide {
 .price__regular {
     color: #EDC0BD;
 }
+
+.card__button--hoverable {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 10;
+    margin-left: 29%;
+    margin-top: 75%;
+    opacity: 0;
+}
+
+.card__button--hoverable:hover  {
+    opacity: 1;
+}
