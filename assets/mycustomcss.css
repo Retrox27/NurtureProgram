@@ -161,6 +161,7 @@ a.button.button--margin__left.button--secondary {
 .multicolumn-card__stars{
     position: absolute;
     margin-left: 75%;
+    margin-top: 15px;
 }
 
 .media.footer.media--transparent.media--square {
@@ -175,4 +176,8 @@ a.button.button--margin__left.button--secondary {
 
 .multicolumn-card.content-container-footer {
     display: flex;
+}
+
+.inline-second-richtext {
+    color: #000;
 }
