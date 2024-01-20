@@ -192,7 +192,7 @@ a.button.button--margin__left.button--secondary {
     color: #361E45;
 }
 
-input .field__input {
+form {
     border-top: none;
     border-right: none;
     border-left: none;
