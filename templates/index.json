@@ -204,7 +204,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "scheme-a9122f85-b6fd-4db3-ab16-ecdb5067b71a",
+        "color_scheme": "scheme-4009218c-f488-4208-a88d-1884b680b552",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -354,8 +354,8 @@
         "show_date": false,
         "show_author": false,
         "show_view_all": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
