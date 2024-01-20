@@ -14,7 +14,7 @@
   }
 
   .custom-br {
-    background-image: url("{{ sections.settings.image-br | image_url }}") !important;
+    background-image: url("{{ sections.settings.image-background | image_url }}") !important;
   }
 {%- endstyle -%}
 
@@ -114,7 +114,7 @@
     },
     {
       "type": "image_picker",
-      "id": "image-bg",
+      "id": "image-background",
       "label": "Set an image as a background for the section."
     },
     {
