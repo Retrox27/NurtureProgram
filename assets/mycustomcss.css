@@ -173,6 +173,6 @@ a.button.button--margin__left.button--secondary {
     margin-right: 1.5rem;
 }
 
-.multicolumn-card.content-container.footer {
+.multicolumn-card.content-container-footer {
     display: flex;
 }
