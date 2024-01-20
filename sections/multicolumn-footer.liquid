@@ -75,24 +75,24 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            <div class="multicolumn-card content-container">
+            <div class="multicolumn-card content-container footer">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
                 {% endif %}
-                <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}">
+                <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing-footer{% endif %}">
                   {% if section.settings.stars != false %}
                     <img class="multicolumn-card__stars" src="{{ 'stars.png' | asset_url }}">
                   {% endif %}
                   <div
-                    class="media media--transparent media--{{ section.settings.image_ratio }}"
+                    class="media footer media--transparent media--{{ section.settings.image_ratio }}"
                     {% if section.settings.image_ratio == 'adapt' %}
                       {% comment %}style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;" {% endcomment %}
                     {% endif %}
                   >
                     {%- if block.settings.link_label != blank -%}
-                      <span class="custom-button-hover"
-                        ><a
+                      <span class="custom-button-hover">
+                        <a
                           class="custom-button button button--primary"
                           {% if block.settings.link == blank %}
                             role="link" aria-disabled="true"
@@ -206,10 +206,11 @@
     },
     {
       "type": "checkbox",
-      "id": "stars",
+      "id": "Make testimonials",
       "default": false,
-      "label": "Add stars for rating"
+      "label": "Converts this section into a testimonial section"
     },
+
     {
       "type": "select",
       "id": "heading_size",

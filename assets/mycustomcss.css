@@ -162,17 +162,17 @@ a.button.button--margin__left.button--secondary {
     position: absolute;
     margin-left: 75%;
 }
-/*
-.media.media--transparent.media--square {
+
+.media.footer.media--transparent.media--square {
     width: 150px;
 }
 
-.multicolumn-card-spacing {
+.multicolumn-card-spacing-footer {
     padding-top: 1.5rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
 
-.multicolumn-card.content-container {
+.multicolumn-card.content-container.footer {
     display: flex;
-}*/
+}
