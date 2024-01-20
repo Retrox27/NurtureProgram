@@ -18,11 +18,16 @@
   }
 {%- endstyle -%}
 
-{% if section.settings['image-background'] != false %}
+{% if section.settings.image-background != false %}
   {%- style -%}
     .custom-bg {
       position: absolute;
     }
+
+    .custom-bg img {
+    width: 110%;
+    height: 110%;
+}
   {%- endstyle -%}
 {% endif %}
 
