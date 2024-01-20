@@ -148,3 +148,7 @@ a.header__icon.header__icon--account.link.focus-inset.small-hide {
   width: 110%;
   height: 110%;
 }
+
+a.button.button--margin__left.button--secondary {
+    background-color: transparent;
+}
