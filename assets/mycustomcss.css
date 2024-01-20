@@ -157,3 +157,7 @@ a.header__icon.header__icon--account.link.focus-inset.small-hide {
 a.button.button--margin__left.button--secondary {
     background-color: transparent;
 }
+
+.multicolumn-card__stars{
+    position:relative;
+}
