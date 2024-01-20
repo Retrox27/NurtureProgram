@@ -191,3 +191,11 @@ a.button.button--margin__left.button--secondary {
     font-size: 16px;
     color: #361E45;
 }
+
+input .field__input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid; /* Puedes cambiar el color según tus preferencias */
+      
+}
