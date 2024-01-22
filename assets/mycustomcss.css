@@ -199,3 +199,7 @@ form {
     border-bottom: 1px solid; /* Puedes cambiar el color según tus preferencias */
       
 }
+
+.title-wrapper-with-link {
+    justify-content: center;
+}
