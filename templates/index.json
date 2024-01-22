@@ -361,14 +361,15 @@
     "1705900291c6c5dfd2": {
       "type": "apps",
       "blocks": {
-        "instafeed_story_app_block_feeds_JQhUQK": {
-          "type": "shopify:\/\/apps\/instafeed-story\/blocks\/app-block-feeds\/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+        "easy_instagram_feed_ig_feed_4VCW99": {
+          "type": "shopify:\/\/apps\/easy-instagram-feed\/blocks\/ig_feed\/195a0b78-59e2-42af-8b17-5bd53518cf45",
           "settings": {
+            "feed_id": "1"
           }
         }
       },
       "block_order": [
-        "instafeed_story_app_block_feeds_JQhUQK"
+        "easy_instagram_feed_ig_feed_4VCW99"
       ],
       "settings": {
         "include_margins": true
