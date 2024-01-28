@@ -211,10 +211,10 @@ form {
     text-align: start;
 
 }
-/*
+
 .blog__posts.articles-wrapper .article{
     transition: width 1s;
-}*/
+}
 
 .blog__posts.articles-wrapper .article:has(*):hover {
     width: 450px;
