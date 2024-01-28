@@ -209,12 +209,17 @@ form {
     height: 378px;
     width: 270px;
     text-align: start;
+
+}
+
+.blog__posts.articles-wrapper .article{
+    transform: width 1s;
 }
 
 .blog__posts.articles-wrapper .article:has(*):hover {
     width: 450px;
     transform: width 1s;
-    }
+}
 
 .article.grid__item {
     min-width: 0px;
