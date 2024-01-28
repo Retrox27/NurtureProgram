@@ -216,13 +216,13 @@ form {
 }
 
 .blog__posts.articles-wrapper .article:has(*):hover {
-    width: 297px;
+    width: 307px;
     transition: width 1s;
 }
 
 .article.grid__item {
     min-width: 0px;
-    max-width: 297px;
+    max-width: 307px;
 }
 
 ul.blog__posts.articles-wrapper {
