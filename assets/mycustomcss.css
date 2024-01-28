@@ -130,6 +130,11 @@ a.header__icon.header__icon--account.link.focus-inset.small-hide {
     opacity: 0;
 }
 
+.card__button--hoverable a.button.button--primary {
+    width: 80%;
+    height: 40px;
+}
+
 .card__button--hoverable:hover  {
     opacity: 1;
 }
