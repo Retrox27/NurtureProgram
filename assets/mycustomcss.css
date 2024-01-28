@@ -207,9 +207,20 @@ form {
 .card__content.second-class {
     z-index: 1;
     height: 378px;
+    width: 270px;
     text-align: start;
 }
 
-.second-class:hover {
-    width: 470px;
+.blog__posts.articles-wrapper .article:has(*):hover {
+    width: 450px;
+    transform: width 1s;
+    }
+
+.article.grid__item {
+    min-width: 0px;
+    max-width: 438px;
+}
+
+ul.blog__posts.articles-wrapper {
+    flex-wrap: nowrap;
 }
