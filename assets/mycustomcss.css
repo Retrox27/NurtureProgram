@@ -197,7 +197,7 @@ a.button.button--margin__left.button--secondary {
 }
 
 form {
-    border-bottom: 1px;
+    border-bottom: 1px solid;
 }
 
 .title-wrapper-with-link {
