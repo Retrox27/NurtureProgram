@@ -209,7 +209,6 @@ form {
     height: 378px;
     width: 270px;
     text-align: start;
-
 }
 
 .blog__posts.articles-wrapper .article{
@@ -217,13 +216,13 @@ form {
 }
 
 .blog__posts.articles-wrapper .article:has(*):hover {
-    width: 450px;
+    width: 297px;
     transition: width 1s;
 }
 
 .article.grid__item {
     min-width: 0px;
-    max-width: 438px;
+    max-width: 297px;
 }
 
 ul.blog__posts.articles-wrapper {
