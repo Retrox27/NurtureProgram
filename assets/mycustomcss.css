@@ -192,18 +192,19 @@ a.button.button--margin__left.button--secondary {
     color: #361E45;
 }
 
+.field:before, .field:after {
+    display: none;
+}
+
 form {
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-bottom: 1px solid; /* Puedes cambiar el color según tus preferencias */
+    border-bottom: 1px;
 }
 
 .title-wrapper-with-link {
     justify-content: center;
 }
 
-.card__content .second-class {
+.card__content.second-class {
     z-index: 1;
     height: 378px;
     text-align: start;
