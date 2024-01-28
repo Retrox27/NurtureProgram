@@ -202,13 +202,13 @@ form {
 .title-wrapper-with-link {
     justify-content: center;
 }
-/*
-.card .card__inner .card__media {
-    width:100%;
-    height:200%;
+
+.card__content .second-class {
+    z-index: 1;
+    height: 378px;
+    text-align: start;
 }
 
-.card__information {
-    z-index: 1;
-    text-align: left;
-}*/
+.second-class:hover {
+    width: 470px;
+}
