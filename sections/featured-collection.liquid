@@ -86,7 +86,13 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            {% render 'card-product',
+            {% if section.settings.show_program != false %}
+              <div class="card__button--hoverable">
+                <a class="button button--primary">View Programs</a>
+              </div>
+            {% endif %}
+            {%
+              render 'card-product',
               card_product: product,
               media_aspect_ratio: section.settings.image_ratio,
               image_shape: section.settings.image_shape,
@@ -95,7 +101,6 @@
               show_rating: section.settings.show_rating,
               show_quick_add: section.settings.enable_quick_add,
               section_id: section.id,
-              show_view_program: section.settings.show_program
             %}
           </li>
         {%- else -%}
