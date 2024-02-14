@@ -134,7 +134,7 @@ a.header__icon.header__icon--account.link.focus-inset.small-hide {
     opacity: 1;
 }
 
-.image-with-text {
+.image-with-text__grid.grid.grid--gapless.grid--1-col.grid--3-col-tablet.image-with-text__grid--reverse {
     padding-right:30px;
 }
 
